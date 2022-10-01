@@ -1,0 +1,51 @@
+.newPost-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newPost-head {
+  font-weight: 400;
+  color: #303066;
+  margin: 0;
+}
+.newPost-head {
+  color: #afafaf;
+}
+
+.newPost-head-div {
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.newPost-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 4rem 0 1rem 0;
+  width: 80%;
+  height: 9.5rem;
+  position: relative;
+}
+
+.newPost-form > button {
+  width: 80%;
+  border: 0;
+  height: 3.5rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+.newPost-head-icon-div {
+  text-align: center;
+}
+.newPost-head-icon {
+  background-color: #ff8801;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  position: absolute;
+  top: -2.1rem;
+  left: 8rem;
+}

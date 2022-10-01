@@ -1,0 +1,139 @@
+.setting-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.setting-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 4rem 0 1rem 0;
+  width: 80%;
+  height: 9.5rem;
+  position: relative;
+}
+
+.setting-head {
+  font-weight: 400;
+  color: #303066;
+  margin: 0;
+}
+.setting-head.dark {
+  color: #afafaf;
+}
+
+.setting-head-div {
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.setting-head-icon-div {
+  text-align: center;
+}
+.setting-head-icon {
+  background-color: #b548c3;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  position: absolute;
+  top: -2.1rem;
+  left: 8rem;
+}
+.setting-body {
+  width: 80%;
+}
+.theme-setting-div,
+.commentCount-setting-div-up {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.commentCount-setting-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.commentCount-setting-div-down {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.off-commentCount {
+  position: absolute;
+  background-color: #f3f3f870;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.off-commentCount.dark {
+  background-color: #1f1d2b65;
+}
+.off-likeCount {
+  position: absolute;
+  background-color: #f3f3f870;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.off-likeCount.dark {
+  background-color: #1f1d2b65;
+}
+.commentCount-setting-div-down > input {
+  margin: 0;
+  width: 45%;
+}
+.commentCount-setting-div-down > button {
+  padding: 0;
+  width: 45%;
+  border-radius: 1rem;
+}
+
+.theme-setting-div-light,
+.theme-setting-div-dark,
+.commentCount-setting-div-limited,
+.commentCount-setting-div-unlimited {
+  display: flex;
+  align-items: center;
+}
+.theme-setting-div-light > h3,
+.theme-setting-div-dark > h3,
+.commentCount-setting-div-limited > h3,
+.commentCount-setting-div-unlimited > h3 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #3030668a;
+}
+.theme-setting-div-light.dark > h3,
+.theme-setting-div-dark.dark > h3,
+.commentCount-setting-div-limited.dark > h3,
+.commentCount-setting-div-unlimited.dark > h3 {
+  color: #afafaf8d;
+}
+
+.theme-setting-div-light > input,
+.theme-setting-div-dark > input,
+.commentCount-setting-div-limited > input,
+.commentCount-setting-div-unlimited > input {
+  margin: 0 0.5rem 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.theme-setting-div-title > h3,
+.commentCount-setting-div-title > h3 {
+  color: #303066;
+}
+.theme-setting-div-title.dark > h3,
+.commentCount-setting-div-title.dark > h3 {
+  color: #afafaf;
+}

@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
+import "./App.css";
+import Auth from "./Componenets/Auth";
+import Pages from "./Componenets/Pages";
+import Card from "./UI/Card";
 
 function App() {
+  const isDarkMode = useSelector((state) => state.setting.isDarkMode);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`body ${isDarkMode && ["dark"]}`}>
+      <Card>
+        <Pages />
+      </Card>
     </div>
   );
 }

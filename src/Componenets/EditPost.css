@@ -1,0 +1,71 @@
+.editPost-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.editPost-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 4rem 0 1rem 0;
+  width: 80%;
+  height: 9.5rem;
+  position: relative;
+}
+.editPost-head-icon-div {
+  text-align: center;
+}
+.editPost-form > button {
+  width: 80%;
+  border: 0;
+  height: 3.5rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.edit-post-button,
+.delete-post-button {
+  width: 45%;
+  height: 3.5rem;
+  border-radius: 1rem;
+}
+
+.delete-post-button {
+  background-color: #c85454;
+}
+.delete-post-button:hover {
+  background-color: #ca3b3b;
+}
+
+.ediPost-head-icon {
+  background-color: #31a7e1;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  position: absolute;
+  top: -2.1rem;
+  left: 8rem;
+}
+.editPost-head-div {
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.editPost-head {
+  font-weight: 400;
+  color: #303066;
+  margin: 0;
+}
+.editPost-head {
+  color: #afafaf;
+}

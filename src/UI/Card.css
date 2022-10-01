@@ -1,0 +1,11 @@
+.container {
+  background-color: #f3f3f8;
+  width: 400px;
+  height: 650px;
+  border-radius: 3rem;
+  position: relative;
+  z-index: 0;
+}
+.container.dark {
+  background-color: #1f1d2b;
+}

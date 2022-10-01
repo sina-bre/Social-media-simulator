@@ -1,0 +1,35 @@
+.navbar-container {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-list li {
+  margin: 0 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.list-icons {
+  color: #b0b0d6;
+}
+.list-icons {
+  color: #7b7c89;
+}
+
+.list-icons:hover {
+  color: #525298;
+}
+.list-icons:hover {
+  color: #5d5d9c;
+}
