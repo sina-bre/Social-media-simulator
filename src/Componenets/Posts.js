@@ -45,7 +45,7 @@ const Posts = () => {
   };
   const onClickEditPostHandler = (index) => {
     dispatch(postActions.beforeEditPost(index));
-    navigate(`/dashboard/admin/editPost/${index}`);
+    navigate(`/admin/editPost/${index}`);
   };
   const onClickLikeHandler = (index) => {
     if (isLimitedLikes) {

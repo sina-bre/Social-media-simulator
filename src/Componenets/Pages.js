@@ -10,7 +10,7 @@ const Pages = () => {
     <>
       <Routes>
         <Route path="/auth" element={<Auth />} />
-        <Route path="/dashboard" element={<DashBoard />}>
+        <Route path="/" element={<DashBoard />}>
           <Route path=":users">
             <Route path="home" element={<Home />} />
             <Route path="newPost" element={<NewPost />} />

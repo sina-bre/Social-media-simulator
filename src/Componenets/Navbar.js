@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className="navbar-container">
       <ul className="navbar-list">
         <li>
-          <Link to={`/dashboard/${users}/home`}>
+          <Link to={`/${users}/home`}>
             <Icon
               icon="fluent:home-32-filled"
               width="25px"
@@ -29,7 +29,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to={`/dashboard/${users}/newPost`}>
+          <Link to={`/${users}/newPost`}>
             <Icon
               icon="heroicons-solid:view-grid-add"
               width="40px"
@@ -38,7 +38,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to={`/dashboard/${users}/setting`}>
+          <Link to={`/${users}/setting`}>
             <Icon
               icon="eva:settings-fill"
               width="25px"

@@ -13,9 +13,9 @@
   border-radius: 1rem;
   margin: 1rem;
 }
-.comment-container {
+/* .comment-container {
   background-color: #2f3142;
-}
+} */
 
 .comment-container-head {
   margin: 1rem;
@@ -61,9 +61,9 @@
   font-weight: 500;
   color: #4e4e7e;
 }
-.comment-user-div > h4 {
+/* .comment-user-div > h4 {
   color: #828282;
-}
+} */
 
 .comment-date-div {
   display: flex;
@@ -74,6 +74,6 @@
   font-size: 0.6rem;
   font-weight: 400;
 }
-.comment-date-div > h6 {
+/* .comment-date-div > h6 {
   color: #6c6c6c;
-}
+} */

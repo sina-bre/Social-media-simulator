@@ -14,7 +14,7 @@ const DeleteDialog = () => {
   const onClickDeleteHandler = () => {
     dispatch(postActions.deletePost());
     dispatch(postActions.clear());
-    navigate("/dashboard/admin/home");
+    navigate("/admin/home");
   };
   return (
     <>

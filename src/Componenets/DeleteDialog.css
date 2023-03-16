@@ -53,9 +53,9 @@
   align-items: center;
   margin: 1rem 0;
 }
-.deleteDialog-modal-content > h4 {
+/* .deleteDialog-modal-content > h4 {
   color: #afafaf;
-}
+} */
 .deleteDialog-modal-buttons {
   display: flex;
   justify-content: space-between;

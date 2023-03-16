@@ -20,7 +20,7 @@ const EditPost = () => {
   const onClickEditHandler = () => {
     dispatch(postActions.editPost());
     dispatch(postActions.clear());
-    navigate("/dashboard/admin/home");
+    navigate("/admin/home");
   };
 
   const onClickDeleteHandler = () => {

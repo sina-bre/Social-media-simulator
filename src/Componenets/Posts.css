@@ -6,9 +6,9 @@
   flex-direction: column;
   border-radius: 1rem;
 }
-.post-container {
+/* .post-container {
   background-color: #252836;
-}
+} */
 
 .post-head {
   display: flex;
@@ -16,9 +16,9 @@
   padding-bottom: 1rem;
   border-bottom: 1px solid #0000001a;
 }
-.post-head {
+/* .post-head {
   border-bottom: 1px solid #ffffff1a;
-}
+} */
 
 .post-title-div {
   display: flex;
@@ -38,9 +38,9 @@
   font-weight: 500;
   color: #303066;
 }
-.post-title {
+/* .post-title {
   color: #afafaf;
-}
+} */
 
 .star-icon-div {
   padding: 0.1rem;
@@ -97,9 +97,9 @@
   color: #0000001a;
   cursor: pointer;
 }
-.options-icon {
+/* .options-icon {
   color: #7b7c89;
-}
+} */
 
 .options-icon.left:hover {
   color: #303066;
